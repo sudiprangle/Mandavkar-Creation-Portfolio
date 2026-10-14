@@ -1,0 +1,6 @@
+{
+  "name": "Mandavkar Creation — Photography Portfolio",
+  "description": "Modern, premium photography portfolio for Mandavkar Creation featuring an editorial gallery, client booking enquiries, and a full-featured admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

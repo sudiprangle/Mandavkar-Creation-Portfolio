@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 340" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700;800&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap');
+      .devanagari-text {
+        font-family: 'Mukta', 'Yantramanav', sans-serif;
+        font-weight: 800;
+      }
+      .subtext {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+    </style>
+
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="richGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBE6A2" />
+      <stop offset="25%" stop-color="#D4AF37" />
+      <stop offset="55%" stop-color="#AA771C" />
+      <stop offset="85%" stop-color="#E5C378" />
+      <stop offset="100%" stop-color="#7B5612" />
+    </linearGradient>
+
+    <!-- Circular Lens Ring Gradient -->
+    <radialGradient id="lensGold" cx="45%" cy="40%" r="55%" fx="35%" fy="30%">
+      <stop offset="0%" stop-color="#FFF2BF" />
+      <stop offset="30%" stop-color="#E5C158" />
+      <stop offset="70%" stop-color="#C59B27" />
+      <stop offset="90%" stop-color="#7A580F" />
+      <stop offset="100%" stop-color="#4E3605" />
+    </radialGradient>
+
+    <!-- Subtle White 3D Text Stroke Gradient -->
+    <linearGradient id="white3D" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F4F4F5" />
+      <stop offset="100%" stop-color="#D4D4D8" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter for Luxury Float -->
+    <filter id="softGlow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#D4AF37" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- ================= TOP CAMERA SILHOUETTE ================= -->
+  <!-- Top camera body outline in pure white with soft shadow -->
+  <g filter="url(#softGlow)">
+    <!-- Pentaprism & top housing -->
+    <path d="M 270 54 L 290 54 L 302 38 L 344 38 L 356 54 L 466 54 C 474 54 480 60 480 68 L 480 138 C 480 146 474 152 466 152 L 448 152" 
+          stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- Shutter / Mode Dial -->
+    <rect x="312" y="27" width="22" height="8" rx="4" fill="#FFFFFF" />
+    <line x1="284" y1="48" x2="294" y2="48" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Stylized viewfinder line -->
+    <path d="M 314 38 L 332 38" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- ================= GOLD ACCENTS & LENS ================= -->
+  <!-- Gold Accent Ball above "मा" of मांडवकर -->
+  <circle cx="106" cy="46" r="13" fill="url(#lensGold)" filter="url(#goldGlow)" />
+  <circle cx="106" cy="46" r="13" stroke="#FFF2BF" stroke-width="1.2" fill="none" opacity="0.8" />
+
+  <!-- Camera Outer Golden Lens Rings -->
+  <g filter="url(#softGlow)">
+    <!-- Outer gold lens rim -->
+    <circle cx="420" cy="126" r="48" stroke="url(#richGold)" stroke-width="11" fill="none" />
+    <!-- Fine inner gold bevel line -->
+    <circle cx="420" cy="126" r="54" stroke="#FBE6A2" stroke-width="1.5" fill="none" opacity="0.9" />
+    <circle cx="420" cy="126" r="42" stroke="#684705" stroke-width="1.8" fill="none" opacity="0.8" />
+    <!-- Center aperture transparent opening with subtle inner shadow -->
+    <circle cx="420" cy="126" r="39" stroke="#E5C158" stroke-width="1" fill="none" opacity="0.6" />
+  </g>
+
+  <!-- Camera grip artistic slash / swoosh line -->
+  <path d="M 264 176 C 304 186 352 178 376 194" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" fill="none" filter="url(#softGlow)" />
+  <!-- Small twig branch flourish under camera -->
+  <path d="M 268 182 L 282 176" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" />
+
+  <!-- ================= MAIN DEVANAGARI BRAND TEXT: मांडवकर ================= -->
+  <g filter="url(#softGlow)">
+    <!-- Top Shirorekha (Horizontal line across मांडवकर) -->
+    <path d="M 12 78 L 372 78" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" />
+    <!-- Top Shirorekha outline border -->
+    <path d="M 12 78 L 372 78" stroke="#27272A" stroke-width="1" stroke-linecap="round" />
+
+    <!-- Text: मांडवकर -->
+    <!-- White filled letterforms with 3D dark inline stroke -->
+    <text x="16" y="148" class="devanagari-text" font-size="78" fill="url(#white3D)" stroke="#18181B" stroke-width="1.5" letter-spacing="0.5">
+      मांडवकर
+    </text>
+  </g>
+
+  <!-- ================= SECOND LINE: क्रिएशन ================= -->
+  <g filter="url(#softGlow)">
+    <!-- Second Shirorekha (Horizontal line across क्रिएशन) -->
+    <path d="M 102 186 L 398 186" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" />
+
+    <!-- Text: क्रिएशन -->
+    <text x="104" y="246" class="devanagari-text" font-size="68" fill="url(#white3D)" stroke="#18181B" stroke-width="1.5" letter-spacing="1">
+      क्रिएशन
+    </text>
+  </g>
+
+  <!-- ================= GOLD FILIGREE DIVIDER ================= -->
+  <g filter="url(#goldGlow)">
+    <!-- Left tapered gold line -->
+    <path d="M 40 274 L 210 274" stroke="url(#richGold)" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Left diamond tip -->
+    <polygon points="214,274 220,270 226,274 220,278" fill="url(#richGold)" />
+
+    <!-- Center Gold Bead / Jewel -->
+    <circle cx="245" cy="274" r="6.5" fill="url(#lensGold)" />
+    <circle cx="245" cy="274" r="6.5" stroke="#FFF2BF" stroke-width="1" fill="none" opacity="0.8" />
+
+    <!-- Right diamond tip -->
+    <polygon points="264,274 270,270 276,274 270,278" fill="url(#richGold)" />
+    <!-- Right tapered gold line -->
+    <path d="M 280 274 L 450 274" stroke="url(#richGold)" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- ================= SUBTEXT: PHOTOGRAPHY CINEMATICS ================= -->
+  <g filter="url(#softGlow)">
+    <text x="245" y="302" class="subtext" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF" stroke="#000000" stroke-width="0.5" letter-spacing="8">
+      PHOTOGRAPHY
+    </text>
+    <text x="245" y="324" class="subtext" text-anchor="middle" font-size="12" font-weight="600" fill="url(#richGold)" letter-spacing="4">
+      — CINEMATICS —
+    </text>
+  </g>
+</svg>
